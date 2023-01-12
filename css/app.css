@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,
+li,
+ol,
+menu {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+body{
+  font-family: 'Signika', sans-serif;
+}
