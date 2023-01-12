@@ -104,6 +104,8 @@ main{
   height: 90px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 15px;
 }
 
 
@@ -145,9 +147,31 @@ main{
 /******************* TIMELINE *****************/
 
 .progress-bar{
-  border: 3px solid white;
-  width: 200px;
+  height: 4px;
+  background-color: white;
+  width: 430px;
+}
+
+.song-timeline{
+  display: flex;
+  align-items: center;
+}
+
+/*************** PLAYER LEFT SONG *************/
+
+.col-song{
+
+}
+
+.song-specs{
+  display: flex;
+  flex-direction: column;
 }
 
 
-/*************** PLAYER LEFT SONG *************/
+@media only screen and (max-width: 575px) {
+	.favourite-folder-icons {
+		flex-direction: column;
+	}
+
+}
