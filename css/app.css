@@ -105,3 +105,46 @@ main{
   display: flex;
   flex-direction: column;
 }
+
+
+/**************** PLAYER BUTTONS ***************/
+
+.song-buttons{
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shuffle{
+  font-size: 14px;
+  color: white;
+}
+
+.back{
+  font-size: 14px;
+  color: white;
+}
+
+.play{
+  font-size: 30px;
+  color: white;
+}
+
+.forward{
+  font-size: 14px;
+  color: white;
+}
+
+.rotate{
+  font-size: 14px;
+  color: white;
+}
+
+
+/******************* TIMELINE *****************/
+
+.progress-bar{
+  border: 3px solid white;
+  width: 200px;
+}
