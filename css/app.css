@@ -21,6 +21,8 @@ a {
 	color: currentColor;
 }
 
+
+
 body{
   font-family: 'Signika', sans-serif;
   background-color: #141922;
@@ -36,10 +38,7 @@ main{
   display: flex;
 }
 
-footer{
-  background-color: grey;
-  height: 90px;
-}
+
 
 
 /************** NAVBAR LATERALE ****************/
@@ -70,4 +69,31 @@ footer{
   background-color: darkblue;
   height: 90px;
 }
+
+.music-highlights{
+  background-color: bisque;
+  
+}
+
+/***************** PLAYER *********************/
  
+.container-player{
+  background-color: grey;
+  height: 90px;
+}
+
+.row-player{
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-player{
+  width: 230px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-song{
+  width: 42px;
+}
