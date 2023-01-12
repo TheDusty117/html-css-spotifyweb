@@ -96,6 +96,12 @@ main{
   justify-content: space-around;
 }
 
-.player-song{
+.song-thumb{
   width: 42px;
+}
+
+.mid-player{
+  height: 90px;
+  display: flex;
+  flex-direction: column;
 }
