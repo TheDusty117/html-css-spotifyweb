@@ -23,4 +23,21 @@ a {
 
 body{
   font-family: 'Signika', sans-serif;
+  background-color: #141922;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+main{
+  background-color: aqua;
+  flex-grow: 1;
+}
+
+footer{
+  background-color: grey;
+  height: 90px;
+}
+
+ 
