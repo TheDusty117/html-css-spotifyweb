@@ -48,11 +48,13 @@ footer{
 .navbar{
   background-color: black;
   width: 230px;
+  flex-shrink: 0;
 }
 
 @media only screen and (max-width: 575px) {
 	.navbar {
 		width: 50px;
+    flex-shrink: 0;
 	}
 
 }
@@ -62,5 +64,10 @@ footer{
 .content{
   background-color: orange;
   flex-grow: 1;
+}
+
+.upgrade-bar{
+  background-color: darkblue;
+  height: 90px;
 }
  
