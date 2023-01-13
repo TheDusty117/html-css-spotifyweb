@@ -38,6 +38,16 @@ main{
   display: flex;
 }
 
+:root{
+  --light-gray:#A3A3A3;
+  --gray:#363636;
+  --dark-gray:#141922;
+  --dark-teal:#141922;
+  --black:#000000;
+  --limelight:#ADFF2F;
+  
+   
+}
 
 
 
@@ -45,14 +55,14 @@ main{
 
 
 .navbar{
-  background-color: black;
+  background-color: var(--black);
   width: 230px;
   flex-shrink: 0;
 }
 
 @media only screen and (max-width: 575px) {
 	.navbar {
-		width: 50px;
+		flex-basis: 50px;
     flex-shrink: 0;
 	}
 
@@ -66,7 +76,7 @@ main{
 }
 
 .upgrade-bar{
-  background-color: darkblue;
+  background-color: var(--dark-gray);
   height: 90px;
 }
 
@@ -78,8 +88,9 @@ main{
 /***************** PLAYER *********************/
  
 .container-player{
-  background-color: grey;
+  background-color: var(--gray);
   height: 90px;
+  color: white;
 }
 
 .row-player{
@@ -93,12 +104,34 @@ main{
   width: 230px;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  
 }
+
+/************ SEZIONE SX PLAYER */
 
 .song-thumb{
   width: 42px;
 }
+
+.col-song{
+  justify-content: flex-start;
+  margin: 0px 10px;
+  gap: 12px;
+}
+
+.favourite-folder-icons{
+  font-size: 14px;
+}
+
+.song-specs{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/************ FINE SEZIONE SX PLAYER */
+
+/************ SEZIONE CENTRALE PLAYER */
 
 .mid-player{
   height: 90px;
@@ -108,13 +141,30 @@ main{
   gap: 15px;
 }
 
+.song-timeline{
+  font-size: 11px;
+}
 
-/**************** PLAYER BUTTONS ***************/
+.song-timeline{
+  display: flex;
+  align-items: center;
+}
+
+
+.progress-bar{
+  height: 4px;
+  background-color: white;
+  max-width: 200px;
+  width: 40vw;
+}
+
+/* BUTTONS MID PLAYER */
 
 .song-buttons{
   width: 230px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 22px;
   align-items: center;
 }
 
@@ -144,34 +194,50 @@ main{
 }
 
 
-/******************* TIMELINE *****************/
+/*************** END BUTTONS MID PLAYER */
 
-.progress-bar{
+
+/* FINE SEZIONE CENTRALE PLAYER */
+
+/**************** SEZIONE DX PLAYER */
+
+
+.col-manager{
+  justify-content: flex-end;
+  margin: 0px 10px;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.audio-bar{
   height: 4px;
   background-color: white;
-  width: 430px;
+  width: 118px;
 }
 
-.song-timeline{
-  display: flex;
-  align-items: center;
+
+/************* FINE SEZIONE DX PLAYER */
+
+
+/************* MEDIAQUERY PLAYER ************/
+
+@media only screen and (max-width: 767px) {
+	.favourite-folder-icons {
+		flex-direction: column;
+	}
+
 }
-
-/*************** PLAYER LEFT SONG *************/
-
-.col-song{
-
-}
-
-.song-specs{
-  display: flex;
-  flex-direction: column;
-}
-
 
 @media only screen and (max-width: 575px) {
 	.favourite-folder-icons {
 		flex-direction: column;
+	}
+
+}
+
+@media only screen and (max-width: 575px) {
+	.audio-bar {
+		width: 85px;
 	}
 
 }
