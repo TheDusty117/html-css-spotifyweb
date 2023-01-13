@@ -121,6 +121,11 @@ main{
 
 .favourite-folder-icons{
   font-size: 14px;
+  color: var(--light-gray);
+}
+
+.favourite-folder-icons i {
+  padding-left: 10px;
 }
 
 .song-specs{
@@ -139,6 +144,7 @@ main{
   flex-direction: column;
   justify-content: center;
   gap: 15px;
+  /* flex-basis: 70%; */
 }
 
 .song-timeline{
@@ -154,7 +160,7 @@ main{
 .progress-bar{
   height: 4px;
   background-color: white;
-  max-width: 200px;
+  max-width: 400px;
   width: 40vw;
 }
 
@@ -213,6 +219,12 @@ main{
   height: 4px;
   background-color: white;
   width: 118px;
+}
+
+.audio-manager{
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 
