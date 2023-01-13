@@ -149,6 +149,11 @@ main{
 .content{
   background-color: orange;
   flex-grow: 1;
+  overflow-y: auto;
+
+
+  /* nasconde tutto il contenuto che va giu sotto 
+  il player */
 }
 
 .upgrade-bar{
@@ -202,7 +207,6 @@ main{
 .col-song{
   margin: 0px 10px;
   gap: 12px;
-  width: 20%;
 }
 
 .favourite-folder-icons{
@@ -241,7 +245,8 @@ main{
 .song-timeline{
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 90%;
 }
 
 
@@ -299,7 +304,6 @@ main{
   margin: 0px 10px;
   gap: 12px;
   font-size: 14px;
-  width: 20%;
 }
 
 .audio-bar{
@@ -344,5 +348,9 @@ main{
 
 
 
-/******************** SIDEBAR *****************/
+/***************** CONTENT CENTRALE *****************/
 
+
+.music-highlights{
+  height: ;
+}
