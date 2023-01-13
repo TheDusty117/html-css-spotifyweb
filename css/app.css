@@ -77,6 +77,8 @@ main{
   width: 230px;
 }
 
+
+
 .nav-col{
   display: flex;
   flex-direction: column;
@@ -165,7 +167,17 @@ main{
   background-color: var(--gray);
   height: 90px;
   color: white;
+  width: 100%;
+
+  /* prova per fissare giu player */
+
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
 }
+
+
 
 .row-player{
   height: 90px;
@@ -190,6 +202,7 @@ main{
 .col-song{
   margin: 0px 10px;
   gap: 12px;
+  width: 20%;
 }
 
 .favourite-folder-icons{
@@ -217,6 +230,7 @@ main{
   flex-direction: column;
   justify-content: center;
   gap: 15px;
+  width: 40%;
   /* flex-basis: 70%; */
 }
 
@@ -227,20 +241,20 @@ main{
 .song-timeline{
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 
 .progress-bar{
   height: 4px;
   background-color: white;
-  max-width: 400px;
-  width: 40vw;
+  width: 100%;
 }
 
 /* BUTTONS MID PLAYER */
 
 .song-buttons{
-  width: 230px;
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 22px;
@@ -285,6 +299,7 @@ main{
   margin: 0px 10px;
   gap: 12px;
   font-size: 14px;
+  width: 20%;
 }
 
 .audio-bar{
