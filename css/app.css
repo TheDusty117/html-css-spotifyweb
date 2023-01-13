@@ -68,6 +68,23 @@ main{
 
 }
 
+.nav-row{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.sect-button{
+  width: 22px;
+}
+
+
+
 /**************** CONTENUTO *******************/
 
 .content{
@@ -253,3 +270,9 @@ main{
 	}
 
 }
+
+
+
+
+/******************** SIDEBAR *****************/
+
