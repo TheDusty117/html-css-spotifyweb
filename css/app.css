@@ -21,6 +21,7 @@ a {
 	color: currentColor;
 }
 
+.button{}
 
 
 body{
@@ -58,6 +59,7 @@ main{
   background-color: var(--black);
   width: 230px;
   flex-shrink: 0;
+  display: flex;
 }
 
 @media only screen and (max-width: 575px) {
@@ -72,6 +74,7 @@ main{
   color: white;
   display: flex;
   flex-direction: column;
+  width: 230px;
 }
 
 .nav-col{
@@ -79,11 +82,65 @@ main{
   flex-direction: column;
 }
 
-.sect-button{
+.col-main-logo{
+  padding: 20px 0px 24px 20px;
+}
+
+.main-button-list li{
+  padding: 6px 0px 6px 20px;
+}
+
+.playlist-list li{
+  padding: 11px 0px 11px 20px;
+}
+
+.spotify-logo{
+  width: 130px;
+}
+
+.img-button{
   width: 22px;
 }
 
+.main-button{
+  display: flex;
+}
 
+.col-playlist{
+  flex-grow: 1;
+}
+
+.playlist-item{
+  padding: px 0;
+}
+
+
+
+/* PROFILO */
+
+.profile-round{
+  width: 25px;
+  border: 2px solid var(--light-gray);
+  border-radius: 50%;
+  background-color: darkcyan;
+}
+
+.subcol-profile{
+  display: flex;
+  align-items: center;
+  padding: 14px 0px 7px 20px;
+}
+
+.subcol-profile h3{
+  padding-left: 10px;
+}
+
+
+/* download app */
+
+.col-download-app{
+  padding: 14px 0px 14px 20px;
+}
 
 /**************** CONTENUTO *******************/
 
@@ -131,7 +188,6 @@ main{
 }
 
 .col-song{
-  justify-content: flex-start;
   margin: 0px 10px;
   gap: 12px;
 }
@@ -226,7 +282,6 @@ main{
 
 
 .col-manager{
-  justify-content: flex-end;
   margin: 0px 10px;
   gap: 12px;
   font-size: 14px;
