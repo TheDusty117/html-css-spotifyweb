@@ -141,7 +141,7 @@ main{
 }
 
 
-/* MEDIAQUERY NAVBAR */
+/*********** MEDIAQUERY NAVBAR *************/
 
 @media only screen and (max-width: 575px) {
 
@@ -172,6 +172,22 @@ main{
   padding: 6px 0px 6px 10px;
 }
 
+
+/* DOWNLOAD AND PROFILE MEDIAQUERY */
+
+
+.subcol-profile{
+  margin-left: -7px;
+}
+
+.subcol-download{
+  margin-left: -3px;
+}
+
+
+
+
+
 }
 
 
@@ -180,9 +196,8 @@ main{
 
 .profile-round{
   width: 25px;
-  border: 2px solid var(--light-gray);
   border-radius: 50%;
-  background-color: darkcyan;
+  background-color: var(--light-gray);
 }
 
 .subcol-profile{
@@ -191,18 +206,29 @@ main{
   padding: 14px 0px 7px 20px;
 }
 
-.subcol-profile h3{
+.subcol-profile > h3{
+  color: white;
   padding-left: 10px;
 }
 
 
+
+
 /* download app */
 
-.col-download-app{
+
+
+.subcol-download{
+  display: flex;
+  color: var(--light-gray);
+  gap: 8px;
   padding: 14px 0px 14px 20px;
   border-bottom: 2px solid var(--gray);
 }
 
+.subcol-download > h4{
+  color: white;
+}
 
 
 
