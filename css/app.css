@@ -62,13 +62,6 @@ main{
   display: flex;
 }
 
-@media only screen and (max-width: 575px) {
-	.navbar {
-		width: 50px;
-    flex-shrink: 0;
-	}
-
-}
 
 .nav-row{
   color: white;
@@ -106,7 +99,34 @@ main{
 
 .main-button{
   display: flex;
+  align-items: center;
 }
+
+.main-button > h4 {
+  padding-left: 8px;
+}
+
+
+
+.navbar h3, h4 {
+  color: var(--light-gray);
+  font-size: 14px;
+}
+
+.add-button{
+  color: var(--black);
+  font-size: 16px;
+  padding: 5px 4px 5px 7px;
+  border: 2px solid var(--light-gray);
+  background-color: var(--light-gray);
+}
+
+.create-playlist{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+
 
 .col-playlist{
   flex-grow: 1;
@@ -114,6 +134,44 @@ main{
 
 .playlist-item{
   padding: px 0;
+}
+
+.spotify-only-logo{
+  display: none;
+}
+
+
+/* MEDIAQUERY NAVBAR */
+
+@media only screen and (max-width: 575px) {
+
+.navbar {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.navbar h3, h4, .spotify-logo{
+
+  display: none;
+}
+
+
+.spotify-only-logo{
+  display: inline;
+}
+
+.col-main-logo{
+  padding: 10px;
+}
+
+.img-button{
+  width: 30px;
+}
+
+.main-button-list li {
+  padding: 6px 0px 6px 10px;
+}
+
 }
 
 
@@ -142,7 +200,16 @@ main{
 
 .col-download-app{
   padding: 14px 0px 14px 20px;
+  border-bottom: 2px solid var(--gray);
 }
+
+
+
+
+
+
+
+
 
 /**************** CONTENUTO *******************/
 
@@ -325,23 +392,28 @@ main{
 /************* MEDIAQUERY PLAYER ************/
 
 @media only screen and (max-width: 767px) {
-	.favourite-folder-icons {
+
+  .favourite-folder-icons {
+    display: flex;
 		flex-direction: column;
 	}
 
 }
 
+
 @media only screen and (max-width: 575px) {
-	.favourite-folder-icons {
+
+  .favourite-folder-icons {
 		flex-direction: column;
 	}
 
-}
-
-@media only screen and (max-width: 575px) {
 	.audio-bar {
 		width: 85px;
 	}
+
+
+
+
 
 }
 
@@ -352,5 +424,5 @@ main{
 
 
 .music-highlights{
-  height: ;
+  
 }
