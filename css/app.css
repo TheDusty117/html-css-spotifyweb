@@ -477,12 +477,12 @@ main{
 .highlights-row{
   display: flex;
   /* flex-wrap: wrap; */
-  justify-content: space-around;
-  gap: 10px;
+  /* justify-content: space-around; */
+  /* gap: 10px; */
 }
 
 .highlights-col{
-  width: 180px;
+  width: calc(100%/6);
 }
 
 .song-box > img{
@@ -495,18 +495,11 @@ main{
   .highlights-row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
   }
   
   .highlights-col{
-    width: 140px;
+    width: calc(100%/4);
   }
-  
-  .song-box > img{
-    width: 100%;
-  }
-  
 
 }
 
