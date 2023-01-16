@@ -473,6 +473,32 @@ main{
 
 /***************** CONTENT CENTRALE *****************/
 
+.categories-row{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .highlights-row{
   display: flex;
@@ -483,12 +509,27 @@ main{
 
 .highlights-col{
   width: calc(100%/6);
+  padding: 7px;
 }
 
 .song-box > img{
   width: 100%;
 }
 
+
+@media only screen and (max-width: 991px) {
+
+  .highlights-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .highlights-col{
+    width: calc(100%/4);
+    padding: 5px;
+  }
+
+}
 
 @media only screen and (max-width: 767px) {
 
@@ -498,7 +539,7 @@ main{
   }
   
   .highlights-col{
-    width: calc(100%/4);
+    width: calc(100%/2);
   }
 
 }
