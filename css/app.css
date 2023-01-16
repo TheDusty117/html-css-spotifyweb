@@ -343,8 +343,9 @@ main{
 .song-timeline{
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 90%;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
 }
 
 
@@ -366,11 +367,11 @@ main{
 }
 
 .start-time{
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 
 .end-time{
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 
 /* BUTTONS MID PLAYER */
@@ -473,6 +474,47 @@ main{
 /***************** CONTENT CENTRALE *****************/
 
 
-.highlights{
-  
+.highlights-row{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  gap: 10px;
 }
+
+.highlights-col{
+  width: 180px;
+}
+
+.song-box > img{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .highlights-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .highlights-col{
+    width: 140px;
+  }
+  
+  .song-box > img{
+    width: 100%;
+  }
+  
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  
+ 
+}
+
+
+
