@@ -506,6 +506,35 @@ main{
   padding: 10px 7px 30px 7px;
 }
 
+/* CREATO PER ROW */
+
+.creati-per>h2{
+  padding: 40px 7px 5px 7px;
+}
+
+.creati-per>h3{
+  padding: 0px 7px 15px 7px;
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+/* POP ARTIST ROW */
+
+.artisti-pop>h2{
+  padding: 40px 7px 5px 7px;
+
+}
+
+.artisti-pop>h3{
+  padding: 0px 7px 15px 7px;
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.round-img{
+  border-radius: 999px;
+}
+
 
 .highlights-row{
   display: flex;
