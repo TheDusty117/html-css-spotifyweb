@@ -324,6 +324,15 @@ main{
   flex-direction: column;
 }
 
+.song-specs> h7 {
+  font-size: 14px;
+}
+
+.song-specs :last-child{
+  font-size: 12px;
+  color: var(--light-gray);
+}
+
 
 /************ FINE SEZIONE SX PLAYER */
 
@@ -477,15 +486,44 @@ main{
 /***************** CONTENT CENTRALE *****************/
 
 
+/* UPGRADE BAR */
+
+.upgrade-container{
+  height: 90px;
+}
+
+.upgrade-row{
+  height: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.upgrade-col h2{
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 999px;
+  padding: 10px 40px;
+}
+
+
+
+
+
+
+
+
 
 .categories-row{
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 24px;
   flex-wrap: wrap;
   font-size: 14px;
   text-transform: uppercase;
   padding: 20px 0px;
+  color: var(--light-gray);
 }
 
 
@@ -552,7 +590,7 @@ main{
   width: 100%;
 }
 
-.song-box>h5, h6 {
+.song-box>h5,h6 {
   text-align: center;
   padding-top: 20px;
 }
