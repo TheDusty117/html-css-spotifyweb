@@ -345,8 +345,22 @@ main{
 
 .progress-bar{
   height: 4px;
+  background-color: var(--light-gray);
+  flex-grow: 1;
+}
+
+.progress-completion{
+  height: 4px;
   background-color: white;
-  width: 100%;
+  width: 30%;
+}
+
+.start-time{
+  padding-right: 10px;
+}
+
+.end-time{
+  padding-left: 10px;
 }
 
 /* BUTTONS MID PLAYER */

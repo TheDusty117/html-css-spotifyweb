@@ -15,14 +15,18 @@
 
   
   <main>
-    <div class="navbar">
+    <div class="navbar">  <!--NAVBAR-->
 
 
       <div class="nav-row">
 
         <div class="nav-col col-main-logo">
-          <img class="spotify-logo" src="./img/logo.svg" alt="">
-          <img class="spotify-only-logo" src="./img/logo-small.svg" alt="">
+          <a href="#">
+            <img class="spotify-logo" src="./img/logo.svg" alt="">
+          </a>
+          <a href="">
+            <img class="spotify-only-logo" src="./img/logo-small.svg" alt="">
+          </a>
         </div>
 
         <div class="nav-col col-main-buttons">
@@ -132,23 +136,65 @@
 
     </div>
 
-    <div class="content">
+    <div class="content">  <!--CONTENT-->
       <div class="upgrade-bar">
         UPGRADE
       </div>
       <div class="music-highlights">
-        CANZONI CONSIGLIATE
+        <div class="highlights-row">
+           
+          <div class="highlights-col">
+            <a href="#">
+
+            </a>
+            <img src="./img/metal_lifting.jpg" alt="">
+          </div>
+ 
+          <div class="highlights-col">
+            <a href="#">
+
+            </a>
+            <img src="./img/stranger.jpeg" alt="">
+          </div>
+
+          <div class="highlights-col">
+            <a href="#">
+
+            </a>
+            <img src="./img/aquietplace.jpeg" alt="">
+          </div>
+
+          <div class="highlights-col">
+            <a href="#"></a>
+            <img src="./img/split.jpeg" alt="">
+          </div>
+
+          <div class="highlights-col">
+            <a href="#"></a>
+            <img src="./img/cure.jpeg" alt="">
+          </div>
+
+          <div class="highlights-col">
+            <a href="#"></a>
+            <img src="./img/sinister.jpeg" alt="">
+          </div>
+
+        </div>
       </div>
     </div>
 
   </main>
 
-  <footer class="container-player">
+  <footer class="container-player">  <!--PLAYER-->
     
     <div class="row-player">
 
+      <!-- PLAYER SX -->
+
       <div class="col-player col-song">
-        <img class="song-thumb" src="./img/sinister.jpeg" alt="">
+        <a href="#">
+          <img class="song-thumb" src="./img/sinister.jpeg" alt="">
+        </a>
         
         <div class="song-specs">
           <h6>Sinister</h6>
@@ -156,28 +202,51 @@
         </div>
 
         <div class="favourite-folder-icons">
-          <i class="fa-regular fa-heart"></i>
-          <i class="fa-regular fa-folder"></i>
+          <a href="#">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-folder"></i>
+          </a>
         </div>
       </div>
 
+      <!-- PLAYER CENTRO -->
+
       <div class="col-player mid-player">
         <div class="song-buttons">
-          <i class="fa-solid fa-shuffle shuffle"></i>
-          <i class="fa-solid fa-backward-step back"></i>
-          <i class="fa-regular fa-circle-play play"></i>
-          <i class="fa-solid fa-forward-step forward"></i>
-          <i class="fa-solid fa-arrow-rotate-right rotate"></i>
+          <a href="#">
+            <i class="fa-solid fa-shuffle shuffle"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-backward-step back"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-circle-play play"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-forward-step forward"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-arrow-rotate-right rotate"></i>
+          </a>
 
         </div>
 
         <div class="col-timeline song-timeline">
-          <span>0:25</span>
-          <div class="progress-bar"></div>
-          <span>4:35</span>
+          <span class="start-time">0:25</span>
+          <div class="progress-bar">
+            <div class="progress-completion">
+
+            </div>
+
+          </div>
+          <span class="end-time">4:35</span>
         </div>
 
       </div>
+
+      <!-- PLAYER DX -->
 
       <div class="col-player col-manager">
         <i class="fa-solid fa-list-ul"></i>
