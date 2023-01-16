@@ -34,7 +34,7 @@ body{
 }
 
 main{
-  background-color: aqua;
+  /* background-color: aqua; */
   flex-grow: 1;
   display: flex;
 }
@@ -44,6 +44,7 @@ main{
   --gray:#363636;
   --dark-gray:#141922;
   --dark-teal:#141922;
+  --deep-teal:#080B12;
   --black:#000000;
   --limelight:#ADFF2F;
   
@@ -245,9 +246,11 @@ main{
 /**************** CONTENUTO *******************/
 
 .content{
-  background-color: orange;
+  /* background-color: orange; */
+  background-color: var(--dark-teal);
   flex-grow: 1;
   overflow-y: auto;
+  color: white;
 
 
   /* nasconde tutto il contenuto che va giu sotto 
@@ -255,12 +258,12 @@ main{
 }
 
 .upgrade-bar{
-  background-color: var(--dark-gray);
+  background-color: var(--deep-teal);
   height: 90px;
 }
 
 .music-highlights{
-  background-color: bisque;
+  /* background-color: bisque; */
   
 }
 
@@ -473,6 +476,8 @@ main{
 
 /***************** CONTENT CENTRALE *****************/
 
+
+
 .categories-row{
   display: flex;
   justify-content: center;
@@ -497,7 +502,9 @@ main{
 
 
 
-
+.recently-played{
+  padding: 10px 7px 30px 7px;
+}
 
 
 .highlights-row{
@@ -516,6 +523,21 @@ main{
   width: 100%;
 }
 
+.song-box>h5, h6 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.song-box>h5 {
+  font-size: 20px;
+  color: white;
+}
+
+.song-box>h6 {
+  padding-top: 10px;
+  font-size: 14px;
+  color: var(--light-gray);
+}
 
 @media only screen and (max-width: 991px) {
 
