@@ -51,6 +51,10 @@ main{
 }
 
 
+main{
+  overflow: hidden;
+}
+
 
 /************** NAVBAR LATERALE ****************/
 
@@ -60,6 +64,7 @@ main{
   width: 230px;
   flex-shrink: 0;
   display: flex;
+  overflow: hidden;
 }
 
 
@@ -344,15 +349,20 @@ main{
 
 
 .progress-bar{
-  height: 4px;
+  /* height: 4px; disattivo perche' prendera'
+  la grandezza del suo figlio ovvero progress completion */
   background-color: var(--light-gray);
   flex-grow: 1;
+  border-radius: 999px;
+  overflow: hidden;
 }
 
 .progress-completion{
   height: 4px;
   background-color: white;
   width: 30%;
+  border-radius: 999px;
+
 }
 
 .start-time{
@@ -463,6 +473,6 @@ main{
 /***************** CONTENT CENTRALE *****************/
 
 
-.music-highlights{
+.highlights{
   
 }
