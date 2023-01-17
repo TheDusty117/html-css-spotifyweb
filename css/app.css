@@ -716,6 +716,7 @@ a #underlined::after{
 
 .container-rel{
   position: relative;
+  text-align: center;
 }
 
 .play-middle {
