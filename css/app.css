@@ -408,12 +408,6 @@ main{
   left: 30%;
 }
 
-.pallino-hide{
-  display: none;
-}
-
-.progress-completion:hover + .pallino-hide{}
-
 /* BUTTONS MID PLAYER */
 
 .song-buttons{
@@ -668,7 +662,7 @@ main{
 
 .play-middle {
   position: absolute;
-  top: 36%;
+  top: 40%;
   width: 100%;
   right: 0px;
   text-align: center;
@@ -676,7 +670,7 @@ main{
 }
 
 .play-hide{
-  /* display: none; */
+  display: none;
 }
 
 
@@ -691,13 +685,15 @@ main{
     filter: opacity(30%);
   } */
 
-  .highlights-col:hover{
+  .highlights-col:hover img{
     filter: opacity(30%);
   }
 
-  .highlights-col:hover + .play-hide{
-
+  .highlights-col:hover i{
+    display: block;
   }
+
+  
   
 
   /* hover player *******************/
