@@ -170,6 +170,10 @@ main{
   display: none;
 }
 
+.down2{
+  display: none;
+}
+
 
 /*********** MEDIAQUERY NAVBAR *************/
 
@@ -180,6 +184,10 @@ main{
   flex-shrink: 0;
 }
 
+.playlist{
+  display: none;
+}
+
 .navbar h3, h4, .spotify-logo{
 
   display: none;
@@ -188,6 +196,7 @@ main{
 
 .spotify-only-logo{
   display: inline;
+  width: 30px;
 }
 
 .col-main-logo{
@@ -202,6 +211,9 @@ main{
   padding: 6px 0px 6px 10px;
 }
 
+.down2{
+  display: inline;
+}
 
 /* DOWNLOAD AND PROFILE MEDIAQUERY */
 
