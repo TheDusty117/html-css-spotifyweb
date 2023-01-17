@@ -101,6 +101,7 @@ main{
 
 .img-button{
   width: 22px;
+  color: var(--light-gray);
 }
 
 .main-button{
@@ -122,9 +123,22 @@ main{
 .add-button{
   color: var(--black);
   font-size: 16px;
-  padding: 5px 4px 5px 7px;
-  border: 2px solid var(--light-gray);
+  /* padding: 5px 4px 5px 7px; */
+  border: 7px solid var(--light-gray);
   background-color: var(--light-gray);
+}
+
+.fa-plus{
+  font-size: 18px;
+  color: black;
+  border: 10px solid var(--light-gray);
+  background-color: var(--light-gray);
+}
+
+.playlist{
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .create-playlist{
@@ -233,7 +247,7 @@ main{
 }
 
 .subcol-download > h4{
-  color: white;
+  color: var(--light-gray);
 }
 
 
@@ -411,6 +425,12 @@ main{
   color: white;
 }
 
+/* hover bottone play */
+
+.play:hover{
+  transform: scale(1.2);
+}
+
 .forward{
   font-size: 14px;
   color: white;
@@ -505,6 +525,7 @@ main{
   border: 1px solid white;
   border-radius: 999px;
   padding: 10px 40px;
+  margin-right: 30px;
 }
 
 
@@ -524,6 +545,9 @@ main{
   text-transform: uppercase;
   padding: 20px 0px;
   color: var(--light-gray);
+}
+
+#underlined{
 }
 
 
@@ -605,6 +629,102 @@ main{
   font-size: 14px;
   color: var(--light-gray);
 }
+
+.container-rel{
+  position: relative;
+}
+
+.play-middle {
+  position: absolute;
+  top: 36%;
+  width: 100%;
+  right: 0px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.play-hide{
+  display: none;
+}
+
+
+/* .play-hide{
+  display: none;
+} */
+
+
+  /* HOVER HIGHLIGHTS  */
+
+  /* .song-box>img:hover{
+    filter: opacity(30%);
+  } */
+
+  .highlights-col:hover{
+    filter: opacity(30%);
+  }
+  
+  
+  
+
+  /* .img-container{
+    position: relative;
+  }
+
+  .play-btn{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    font-size: 80px;
+  } */
+
+  /* .highlights-col{
+    position: relative;
+  } */
+
+
+
+  /* HOVER UPGRADE BAR */
+
+  .upgrade-col:hover{
+      transform: scale(1.2);
+    }
+  
+
+
+  /* hover delle categorie */
+  .categories-row .categories-col:hover{
+    color: white;
+  }
+
+
+  /* hover navbar */
+  .main-button h4:hover{
+    color: white;
+  }
+
+  
+  .playlist-item span:hover{
+    color: white;
+  }
+
+  .playlist-item .fa-plus:hover{
+    background-color: white;
+    border-color: white;
+  }
+
+
+  .playlist-item h4:hover{
+    color: white;
+  }
+
+  .subcol-download h4:hover{
+    color: white;
+  }
+  
+
+  
+  
+
 
 @media only screen and (max-width: 991px) {
 
