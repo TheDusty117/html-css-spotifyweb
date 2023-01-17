@@ -776,15 +776,17 @@ main{
     color: white;
   }
 
-  
-  .playlist-item span:hover{
-    color: white;
-  }
+  /* hover CREA PLAYLIST */
 
-  .playlist-item .fa-plus:hover{
+  .plus-evid:hover .fa-plus{
     background-color: white;
     border-color: white;
   }
+
+  .plus-evid:hover span{
+    color: white;
+  }
+  
 
 
   .playlist-item h4:hover{
