@@ -101,7 +101,7 @@ main{
 
 .img-button{
   width: 22px;
-  color: var(--light-gray);
+  filter: invert(0.4);
 }
 
 .main-button{
@@ -771,12 +771,19 @@ main{
   }
 
 
-  /* hover navbar ***************/
-  .main-button h4:hover{
-    color: white;
+  /* HOVER HOME CERCA LIBRERIA ************************/
+
+  .main-button:hover .img-button{
+      width: 22px;
+      filter: invert(0.0);
   }
 
+  .main-button:
+  
+
   /* hover CREA PLAYLIST */
+
+  
 
   .plus-evid:hover .fa-plus{
     background-color: white;
