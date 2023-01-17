@@ -778,7 +778,9 @@ main{
       filter: invert(0.0);
   }
 
-  .main-button:
+  .main-button:hover h4{
+    color: white;
+  }
   
 
   /* hover CREA PLAYLIST */
