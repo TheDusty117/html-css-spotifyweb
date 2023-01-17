@@ -406,6 +406,15 @@ main{
   background-color: white;
   position: absolute;
   left: 30%;
+  top: 0px;
+}
+
+.pallino-hide{
+  display: none;
+}
+
+.progress-completion:hover .pallino-hide{
+  display: inline;
 }
 
 /* BUTTONS MID PLAYER */
@@ -493,6 +502,29 @@ main{
 .audio-completion:hover{
   background-color: var(--limelight);
 }
+
+.col-manager{
+  position: relative;
+}
+
+.pallino2{
+  width: 1px;
+  padding: 6px;
+  border-radius: 999px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+}
+
+.pallino-hide{
+  display: none;
+}
+
+.audio-completion:hover .pallino-hide{
+  display: inline;
+}
+
 
 
 /************* FINE SEZIONE DX PLAYER */
@@ -655,6 +687,8 @@ main{
   font-size: 14px;
   color: var(--light-gray);
 }
+
+/* HOVER BOX SONG *********************/
 
 .container-rel{
   position: relative;
