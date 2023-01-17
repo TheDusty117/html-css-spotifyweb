@@ -389,16 +389,30 @@ main{
   background-color: white;
   width: 30%;
   border-radius: 999px;
-
 }
 
-.start-time{
-  /* padding-right: 10px; */
+.progress-completion:hover{
+  background-color: var(--limelight);
 }
 
-.end-time{
-  /* padding-left: 10px; */
+.song-timeline{
+  position: relative;
 }
+
+.pallino{
+  width: 1px;
+  padding: 6px;
+  border-radius: 999px;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+}
+
+.pallino-hide{
+  display: none;
+}
+
+.progress-completion:hover + .pallino-hide{}
 
 /* BUTTONS MID PLAYER */
 
@@ -466,6 +480,24 @@ main{
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.audio-bar{
+  background-color: var(--light-gray);
+  flex-grow: 1;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.audio-completion{
+  height: 4px;
+  background-color: white;
+  width: 30%;
+  border-radius: 999px;
+}
+
+.audio-completion:hover{
+  background-color: var(--limelight);
 }
 
 
@@ -644,7 +676,7 @@ main{
 }
 
 .play-hide{
-  display: none;
+  /* display: none; */
 }
 
 
@@ -653,7 +685,7 @@ main{
 } */
 
 
-  /* HOVER HIGHLIGHTS  */
+  /* HOVER HIGHLIGHTS  ***************/
 
   /* .song-box>img:hover{
     filter: opacity(30%);
@@ -662,9 +694,21 @@ main{
   .highlights-col:hover{
     filter: opacity(30%);
   }
+
+  .highlights-col:hover + .play-hide{
+
+  }
   
+
+  /* hover player *******************/
   
-  
+  a .heart-hover:hover{
+    color: white;
+  }
+
+  a .folder-hover:hover{
+    color: white;
+  }
 
   /* .img-container{
     position: relative;
@@ -683,7 +727,7 @@ main{
 
 
 
-  /* HOVER UPGRADE BAR */
+  /* HOVER UPGRADE BAR *****************/
 
   .upgrade-col:hover{
       transform: scale(1.2);
@@ -691,13 +735,13 @@ main{
   
 
 
-  /* hover delle categorie */
+  /* hover delle categorie ***************/
   .categories-row .categories-col:hover{
     color: white;
   }
 
 
-  /* hover navbar */
+  /* hover navbar ***************/
   .main-button h4:hover{
     color: white;
   }
