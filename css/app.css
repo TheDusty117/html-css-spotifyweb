@@ -635,10 +635,10 @@ main{
   position: relative;
 }
 
-a #underlined::after{
+a .underlined::after{
   content: "";
   height: 3px;
-  width: 30%;
+  width: 30px;
   background-color: var(--limelight);
   position: absolute;
   bottom: -.5em;
