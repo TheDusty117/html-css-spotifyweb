@@ -435,7 +435,7 @@ main{
   display: none;
 }
 
-.progress-completion:hover .pallino-hide{
+.progress-bar:hover .pallino-hide{
   display: inline;
 }
 
@@ -543,7 +543,7 @@ main{
   display: none;
 }
 
-.audio-completion:hover .pallino-hide{
+.audio-bar:hover .pallino-hide{
   display: inline;
 }
 
